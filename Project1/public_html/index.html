@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Base.css" type="text/css" rel="stylesheet" />
+        <a href="page2.html">Page 2</a>
+        <a href="page3.html">Page 3</a>
+        <a href="page4.html">Page 4</a>
+        <a href="p1about.html">About Us</a>
+    </head>
+    <body id="body1">
+        <center>
+            <h1 id="h1">
+                <strong>Welcome to my web site!</strong>
+            </h1>
+            <h2 id="h2" text="Date()"></h2>
+            <hr>
+        </center>
+        <p>Some Text</p>
+        <form>
+            <img src="Autumn.gif" alt="Autumn" style="width:546px;height:215px;">
+        </form>
+        <script>
+            var myVar1 = setInterval(myTimer, 100);
+            document.getElementById("h2").innerHTML = Date();
+            
+            function myTimer() {
+                document.getElementById("h2").innerHTML = "Todays Date: " + Date();
+            }
+            function showDate() {
+              document.getElementById("h2").innerHTML = document.getElementById("date1").value;
+            }
+        </script>
+    </body>
+    <footer>
+        <p>
+            <small>© By Hank Gontarz Date this web site is fictitious.</small>
+        </p>
+    </footer>
+</html>

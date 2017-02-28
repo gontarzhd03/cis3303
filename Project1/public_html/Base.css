@@ -1,0 +1,15 @@
+h1     { color: black; }
+h2     { color: blue; font-size: 20pt; }
+h3     { color: blue; }
+p      { color: blue; }
+small  { color: black; }
+body   { background-color: lightblue; }
+em     { color: darkblue; }
+hr     { border-color: red; }
+strong { font-size: 30px; }
+footer { color: black; }
+a:link {color: black; font-size: 14pt; }
+a:visited {color: black; font-size: 14pt; }
+a:hover {color: red; font-size: 16pt; }
+a:focus {color: green; font-size: 14pt; }
+a:active {color: blue; font-size: 16pt; }
