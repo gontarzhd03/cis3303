@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <title>Page #</title>
+        <title>Page 4</title>
 	<link href="Base.css" type="text/css" rel="stylesheet" />
         <a href="index.html">Home</a>
     </head>
@@ -10,11 +10,25 @@
         <center>
             <hr>
             <h1 id="h1">
-                <strong>Page #</strong>
+                <strong>Page 4</strong>
             </h1>
         </center>
 	<p>
-	    Page #
+	    Page 2
 	</p>
+        <script>
+            var myVar1 = setInterval(myTimer, 100);
+            
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("sf1").innerHTML = d.toDateString();
+            }
+        </script>
     </body>
+    <footer>
+        <p>
+            <small>© By Hank Gontarz, this web site is fictitious. Date: </small>
+            <small id = "sf1"></small>
+        </p>
+    </footer>
 </html>

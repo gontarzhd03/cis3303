@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>About Us</title>
 	<link href="Base.css" type="text/css" rel="stylesheet" />
+        <a href="index.html">Home</a>
     </head>
     <body id="body1">
         <center>
@@ -16,8 +17,29 @@
 	    Hello! My name is 
 	    <strong id="st1">Hank Gontarz</strong>
 	    <br>
-	    The reason I built this web site is because... 
+	    The reason I built this web site is because I like buying, selling and collecting rare single malt scotch whiskey.
+	    <br>
+            For step 2 I did ...
+	    <br>
+            For step 3 I did ...
+	    <br>
+            For step 4 I did ...
+	    <br>
 	    <em>Link and sources are: </em>.
 	</p>
+        <script>
+            var myVar1 = setInterval(myTimer, 100);
+            
+            function myTimer() {
+                var d = new Date();
+                document.getElementById("sf1").innerHTML = d.toDateString();
+            }
+        </script>
     </body>
+    <footer>
+        <p>
+            <small>© By Hank Gontarz, this web site is fictitious. Date: </small>
+            <small id = "sf1"></small>
+        </p>
+    </footer>
 </html>
