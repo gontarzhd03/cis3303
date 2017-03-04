@@ -25,3 +25,34 @@ hr {
     margin: 1em 0;
     padding: 0; 
 }
+#name { color: black; font-size: 14pt; }
+p.name { color: red; font-size: 14pt; }
+ul {
+    list-style-type: decimal-leading-zero;
+}
+div.top {
+    background-color: lightgreen;
+    border: solid 2px black;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#images { padding-left: 20px; padding-right: 20px; }
+img.wissotzky {
+    width: 250px;
+    height: 300px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+img.paromi {
+    width: 200px;
+    height: 300px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+img.zhena {
+    width: 300px;
+    height: 300px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
