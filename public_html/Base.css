@@ -27,8 +27,11 @@ hr {
 }
 #name { color: black; font-size: 14pt; }
 p.name { color: red; font-size: 14pt; }
-ul {
+ul.sources {
     list-style-type: decimal-leading-zero;
+}
+ul.steps {
+    list-style-type: none;
 }
 div.top {
     background-color: lightgreen;
