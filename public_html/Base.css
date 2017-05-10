@@ -12,6 +12,10 @@ a:visited {color: black; font-size: 14pt; }
 a:hover {color: red; font-size: 14pt; }
 a:focus {color: green; font-size: 14pt; }
 a:active {color: blue; font-size: 14pt; }
+strong.top {
+    color: darkblue;
+    font-size: 20px;
+}
 span.navigationSpace {
     padding-left: 30px;
 }
